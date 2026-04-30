@@ -81,4 +81,4 @@ Rendering pipeline with Puppeteer and pdf-lib. A Screenshot Engine renders HTML 
 
 ### Contact
 
-LinkedIn coming soon.
+[GitHub](https://github.com/SyK5) · [LinkedIn](https://www.linkedin.com/in/alpay-sahin-syk5) · [Email](mailto:alpay.sahin@outlook.de)

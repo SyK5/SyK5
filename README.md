@@ -1,6 +1,6 @@
 ## Alpay Sahin
 
-Fullstack Developer focused on TypeScript Backends, Multi Tenant SaaS and Access Control architectures. Since August 2025 main maintainer of two SaaS products in production. Backend, Frontend and customer communication are part of my scope.
+Fullstack Developer focused on TypeScript Backends, Multi Tenant SaaS and Access Control architectures. Currently building [Snio](https://snio.gg), a multi tenant esports platform that exercises the same production patterns on a clean greenfield codebase. From August 2025 until recently I was the primary developer of two SaaS products in production.
 
 ---
 
@@ -20,11 +20,19 @@ Multi Tenant architectures, Row Level Security as Prisma Middleware, Request sco
 
 ---
 
-### Current work context
+### Current focus
+
+#### Snio · [snio.gg](https://snio.gg)
+
+Multi tenant esports platform built as a public showcase. NestJS, Prisma, React, Tailwind, Turborepo. The codebase exercises the same patterns I applied at work on production systems: Row Level Security as a Prisma Extension with multiple scope resolvers, AsyncLocalStorage request context, a grant based permission system with action bitmasks and multi role support, position based role hierarchy, JWT with refresh rotation, and a two server Hetzner deployment with strict private network isolation. Live at [snio.gg](https://snio.gg), code at [github.com/SyK5/snio](https://github.com/SyK5/snio).
+
+---
+
+### Previous work context
 
 #### CAFM SaaS Platform
 
-In production use by multiple corporations and companies. Shortly after I joined I received the handover from the CTO and have been the main maintainer since. My scope covers architecture and implementation, onboarding new colleagues and direct customer contact via meetings and the Featurebase ticket system.
+In production use by multiple corporations and companies. Shortly after I joined I received the handover from the CTO and was the primary developer afterwards. My scope covered architecture and implementation, onboarding new colleagues and direct customer contact via meetings and the Featurebase ticket system.
 
 Larger features and subsystems:
 
@@ -33,13 +41,13 @@ Larger features and subsystems:
 - PostgreSQL Session Variables for Audit Trails directly at the database level.
 - Ticket system with Kanban backend and Cronjobs.
 - File transfer via AWS S3 with Presigned URLs. On the frontend a props driven component reused in multiple places.
-- Migration of the legacy Node backend to NestJS. Datasets in the six digit range were brought to acceptable response times via pagination and query tuning.
+- Migration of the legacy Node backend to NestJS. Datasets in the hundreds of thousands range were brought to acceptable response times via pagination and query tuning.
 
 48 of the 100 plus backend modules in the codebase show active changes from me.
 
 #### Watch Capital Platform (parallel product)
 
-NestJS backend with two React frontends for customers and admins. I refactored the platform end to end and extended it with new features. Backend, both frontends and customer communication are on me.
+NestJS backend with two React frontends for customers and admins. I refactored the platform end to end and extended it with new features. Backend, both frontends and customer communication were on me.
 
 Larger features and subsystems:
 
@@ -52,11 +60,7 @@ Larger features and subsystems:
 
 ---
 
-### Featured Repositories
-
-#### snio
-
-Multi Tenant Esport Platform showcase project. NestJS, Prisma, React, Tailwind, Turborepo. Currently in active development with a transparent sprint roadmap. The repository demonstrates Row Level Security as Prisma Middleware, AsyncLocalStorage Request Context, grant based Permission System, JWT plus Refresh Rotation and a two server Hetzner Private Network deployment.
+### Other repositories
 
 #### cv-tool (public soon)
 
